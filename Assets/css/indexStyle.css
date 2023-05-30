@@ -1,8 +1,11 @@
 *{
     /* background-color: #FDE8CD; */
     background-color: #FFF2CC;
+    /* color: white !important; */
+    /* background-color: black; */
     
 }
+
 body{
     background-color: #FFF2CC
 }
@@ -11,3 +14,22 @@ body{
     color: rgb(66, 203, 66) !important;
 }
 
+#book-covers{
+    height: 250px !important;
+    width: 80% !important;
+    display: flex !important;
+    justify-content: center !important ;
+    align-items: center;
+}
+
+#book-title{
+    font-size: 25px;
+}
+
+#author-name{
+    font-size: 10px;
+}
+
+#price{
+    font-size: 8px;
+}
