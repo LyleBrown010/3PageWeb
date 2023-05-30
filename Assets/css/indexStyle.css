@@ -1,18 +1,30 @@
 *{
     /* background-color: #FDE8CD; */
-    background-color: #FFF2CC;
+    /* background-color: #FFF2CC; */
     /* color: white !important; */
-    /* background-color: black; */
+    background-color: rgb(255, 255, 143);
     
 }
 
+
+#top, #navbarSupportedContent{
+    background-color: yellow;
+    color: black;
+    font-weight: 400;
+}
+
+footer{
+    background-color: yellow;
+}
 body{
     background-color: #FFF2CC
 }
 
 #mainheading{
-    color: rgb(66, 203, 66) !important;
+    color: black !important;
 }
+
+
 
 #book-covers{
     height: 250px !important;

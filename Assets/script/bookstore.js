@@ -43,6 +43,20 @@ let books = [
         author: " Thomas Szaaz ", 
         price: " price " ,  
     },  
+    {
+        id: 7,
+        image: "https://i.postimg.cc/nc4wYw4B/Mark-Manson-The-subtle-art.jpg " ,
+        title: " The Subtle Art of Not Giving A F*ck " , 
+        author: " Mark Manson ", 
+        price: " price " ,  
+    },  
+    {
+        id: 8,
+        image: "https://i.postimg.cc/D0KR7VQf/F-Scott-Fitzgerald-THe-great-Gatsby.jpg " ,
+        title: " The Great Gatsby " , 
+        author: " F. Scott Fitzgerald ", 
+        price: " price " ,  
+    },  
 ];
   
   let dispBooks = document.querySelector("#books");
