@@ -61,7 +61,7 @@ let books = [
   let dispBooks = document.querySelector("#books");
   books.forEach((data) => {
     dispBooks.innerHTML += `
-    <div class= "card border border-black col-2 p-2 m-2 d-flex align-items-center justify-content-center ">
+    <div class= "card border border-black col-2 p-2 m-2 d-flex align-items-center justify-content-center " id="card-product">
         <img class="m-2 d-flex " id="book-covers" src = "${data.image}">
         <h6 id="book-title" class="display-1 bg-white">${data.title}</h6>
         <div class="card-body bg-white">

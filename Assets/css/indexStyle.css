@@ -51,6 +51,7 @@ footer{
     align-items: center;
 }
 
+
 #book-title{
     font-size: 40px;
 }
@@ -70,6 +71,14 @@ footer{
 }
 
 @media only screen and (max-width: 1141px){
-    
+    #card-product{
+        display: flex;
+        width: 70%;
+        padding: 2px;
+    }
+
+    #book-covers{
+        height: 400px;
+    }
 
 }
